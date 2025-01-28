@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar bg-light">
-        <div class="container-fluid">
+        <div class="container-xxl d-flex justify-content-evenly">
             <a class="navbar-brand fs-3 fw-bold d-inline-flex p-2" href="#">
                 <img src="../images/navlogo.png" alt="Logo" width="30" height="44" class="d-inline-block align-text-top">
                 클바지지
