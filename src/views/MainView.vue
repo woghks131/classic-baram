@@ -24,7 +24,7 @@
             <div class="py-1">
                 <div class="row row-cols-1 ">
                     <div class="col  my-3 d-flex justify-content-center">
-                        <div class="border border-secondary rounded-2 d-flex align-items-center flex-row cardDiv w-50">
+                        <div class="border border-secondary rounded-2 d-flex align-items-center flex-row cardDiv" style="width: 43% !important;">
 
                             <div class="flex-shrink-0 p-2 d-flex align-items-center cardImage">
                                 <img src="../images/event1.png" class="img-fluid"  alt="이벤트 이미지">
@@ -36,7 +36,7 @@
                     </div>
 
                     <div class="col  my-3 d-flex justify-content-center">
-                        <div class="border border-secondary rounded-2 d-flex align-items-center flex-row cardDiv w-50">
+                        <div class="border border-secondary rounded-2 d-flex align-items-center flex-row cardDiv" style="width: 43% !important;">
 
                             <div class="flex-shrink-0 p-2 d-flex align-items-center cardImage">
                                 <img src="../images/event2.png" class="img-fluid"  alt="이벤트 이미지">
@@ -57,13 +57,13 @@
             <p class="fs-4 fw-bold"><a href="#" class="text-decoration-none text-secondary">문파 모집</a></p>
 
             <div class="col  my-3 d-flex justify-content-center ">
-                <div class="w-50">
+                <div style="width: 43% !important;">
                     <p class="fs-6 fw-bold"><a href="#" class="d-flex flex-row-reverse text-decoration-none text-secondary">더보기</a></p>
                 </div>
             </div>
 
             <div class="col  my-3 d-flex justify-content-center ">
-                <div class="border border-secondary rounded-2 d-flex  align-items-center flex-row cardDiv w-50 ">
+                <div class="border border-secondary rounded-2 d-flex  align-items-center flex-row cardDiv " style="width: 43% !important;">
 
                     <div class="flex-shrink-0 p-2 d-flex align-items-center cardImage">
                         <img src="../images/guild1.jpeg" class="img-fluid "  alt="문파 이미지">
@@ -82,7 +82,7 @@
             </div>
 
             <div class="col  my-3 d-flex justify-content-center ">
-                <div class="border border-secondary rounded-2 d-flex align-items-center flex-row cardDiv w-50 ">
+                <div class="border border-secondary rounded-2 d-flex align-items-center flex-row cardDiv " style="width: 43% !important;">
 
                     <div class="flex-shrink-0 p-2 d-flex align-items-center cardImage">
                         <img src="../images/guild1.jpeg" class="img-fluid "  alt="문파 이미지">
@@ -107,7 +107,7 @@
             <p class="fs-4 fw-bold"><a href="#" class="text-decoration-none text-secondary">실시간 아이템 시세</a></p>
 
             <div class="col  my-3 d-flex justify-content-center ">
-                <div class="w-50">
+                <div style="width: 43% !important;">
                     <p class="fs-6 fw-bold text-secondary d-flex flex-row-reverse">최근 1일</p>
                 </div>
             </div>
@@ -246,7 +246,7 @@
 </template>
 <style>
 .cardDiv {
-    padding:10px 30px; 
+    padding:10px 10px; 
 }
 .cardImage {
     width: 60px; 

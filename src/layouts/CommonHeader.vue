@@ -1,10 +1,10 @@
 <template>
     <nav class="navbar bg-light">
         <div class="container-xxl">
-            <a class="navbar-brand fs-3 fw-bold d-inline-flex p-2" href="#">
+            <router-link class="navbar-brand fs-3 fw-bold d-inline-flex p-2" to="/">
                 <img src="../images/navlogo.png" alt="Logo" width="30" height="44" class="d-inline-block align-text-top">
                 클바지지
-            </a>
+            </router-link>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="돼지굴" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -32,7 +32,7 @@
 					<router-link to="/" class="nav-link">그룹 찾기</router-link>
 				</li>
                 <li class="nav-item">
-					<router-link to="/" class="nav-link">아이템</router-link>
+					<router-link to="/items" class="nav-link">아이템</router-link>
 				</li>
                 <li class="nav-item">
 					<router-link to="/" class="nav-link">조합</router-link>
